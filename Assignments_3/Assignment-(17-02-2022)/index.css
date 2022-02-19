@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+img {
+    width: 320px;
+    height: 190px;
+}
+.container1 {
+    display: flex;
+    
+    justify-content: space-around;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+}
+.container4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container5 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container6 {
+    display: flex;
+}
+.img1 {
+    order:3;
+}
+.img3 {
+    order:-1;
+}
+.img2 {
+    order:1;
+}
+.img4 {
+    order:2;
+}
